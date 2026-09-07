@@ -77,6 +77,17 @@
         android:layout_height="20dp"/>
 
 
+    
+    <TextView
+        android:id="@+id/tvProgress"
+        android:text="READY"
+        android:textColor="#00FF00"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <Button
         android:id="@+id/btnDetect"
 
@@ -98,6 +109,8 @@
 
 
     <Button
+        android:id="@+id/btnWrite"
+
         android:text="WRITE BIN"
 
         android:layout_width="match_parent"
