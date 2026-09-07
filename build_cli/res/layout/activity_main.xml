@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnDetect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deteksi IC SPI (CH341A)" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp"
+        android:background="#1E1E1E"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="#00FF00"
+            android:textSize="12sp"
+            android:text="Output terminal akan tampil di sini...\n" />
+    </ScrollView>
+
+</LinearLayout>

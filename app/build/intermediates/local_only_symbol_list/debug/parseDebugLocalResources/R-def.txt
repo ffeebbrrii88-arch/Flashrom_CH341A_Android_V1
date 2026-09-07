@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+id btnDetect
+id btnRead
+id progressRead
+id tvBackup
+id tvLog
+id tvStatus
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round

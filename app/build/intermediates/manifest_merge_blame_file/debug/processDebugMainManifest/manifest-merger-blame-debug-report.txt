@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flashromch341a"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e97faed472176bc7a82f8f5b7093975f/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.flashromch341a.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e97faed472176bc7a82f8f5b7093975f/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e97faed472176bc7a82f8f5b7093975f/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.flashromch341a.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e97faed472176bc7a82f8f5b7093975f/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e97faed472176bc7a82f8f5b7093975f/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:5:5-21:19
+18        android:allowBackup="true"
+18-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e97faed472176bc7a82f8f5b7093975f/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:7:9-43
+23        android:label="Flashrom CH341A"
+23-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:8:9-40
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:9:9-54
+25        android:supportsRtl="true"
+25-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:10:9-35
+26        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" >
+26-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:11:9-70
+27        <activity
+27-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:13:9-20:20
+28            android:name="com.example.flashromch341a.MainActivity"
+28-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:14:13-41
+29            android:exported="true" >
+29-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:15:13-36
+30            <intent-filter>
+30-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:16:13-19:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:17:17-69
+31-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:17:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:18:17-77
+33-->/data/data/com.termux/files/home/Projects/1/Flashrom_CH341A_Android_V1/app/src/main/AndroidManifest.xml:18:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <provider
+37-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/fcec39bba1f5eeb930b0377f93199c51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+38            android:name="androidx.startup.InitializationProvider"
+38-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/fcec39bba1f5eeb930b0377f93199c51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+39            android:authorities="com.example.flashromch341a.androidx-startup"
+39-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/fcec39bba1f5eeb930b0377f93199c51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+40            android:exported="false" >
+40-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/fcec39bba1f5eeb930b0377f93199c51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+41            <meta-data
+41-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/fcec39bba1f5eeb930b0377f93199c51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+42-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/fcec39bba1f5eeb930b0377f93199c51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+43                android:value="androidx.startup" />
+43-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/fcec39bba1f5eeb930b0377f93199c51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+44            <meta-data
+44-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/ab14c2e75a58e27dabc0ece67e295348/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/ab14c2e75a58e27dabc0ece67e295348/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+46                android:value="androidx.startup" />
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/ab14c2e75a58e27dabc0ece67e295348/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+47        </provider>
+48    </application>
+49
+50</manifest>
